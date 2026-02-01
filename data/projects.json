@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Discord 출석체크/랭킹 봇",
+    "summary": "일일 출석, 레벨업, 랭킹 집계, DB 연동 등 운영 자동화를 목표로 구현.",
+    "tags": ["Node.js", "MariaDB", "Discord API"],
+    "link": "",
+    "repo": ""
+  },
+  {
+    "title": "Spring 기반 웹 서비스 프로젝트",
+    "summary": "로그인/기능 구현, DB 모델링, API 연동까지 전반 경험.",
+    "tags": ["Java", "Spring", "MySQL/MariaDB"],
+    "link": "",
+    "repo": ""
+  },
+  {
+    "title": "행사 AV 운영 사례 모음",
+    "summary": "음향/조명/영상 운영 포지션과 대응 사례를 정리(장비/구성/트러블슈팅).",
+    "tags": ["Sound", "Lighting", "Video"],
+    "link": "",
+    "repo": ""
+  }
+]
