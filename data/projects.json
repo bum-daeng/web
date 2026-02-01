@@ -1,23 +1,54 @@
 [
   {
+    "type": "av",
+    "title": "행사 음향 운영 (FOH/Monitor)",
+    "period": "2025",
+    "role": "오퍼레이팅 · 셋업",
+    "scale": "중형 행사",
+    "summary": "리허설~본공연 운영, 피드백/노이즈 대응, 패치/신호 경로 관리.",
+    "stack": ["PA", "Wireless", "Mixer", "Signal Flow"],
+    "highlights": [
+      "리허설 단계에서 리스크 포인트(게인 구조/모니터 루프) 선제 제거",
+      "노이즈 발생 시 구간 분리(입력/아웃/전원)로 빠른 복구"
+    ],
+    "evidence": {
+      "photos": "",
+      "doc": "",
+      "video": ""
+    }
+  },
+  {
+    "type": "av",
+    "title": "행사 조명 오퍼레이팅",
+    "period": "2024",
+    "role": "큐시트 기반 운영",
+    "scale": "소형~중형",
+    "summary": "큐시트/타임라인 기반으로 씬 전환 및 현장 대응.",
+    "stack": ["Lighting", "Cue Sheet", "On-site 대응"],
+    "highlights": [
+      "리허설에서 씬 구성을 확정하고 동선/타이밍 이슈 최소화",
+      "현장 변경 요청에 맞춰 큐 수정 및 안정적으로 반영"
+    ],
+    "evidence": {
+      "photos": "",
+      "doc": "",
+      "video": ""
+    }
+  },
+  {
+    "type": "dev",
     "title": "Discord 출석체크/랭킹 봇",
-    "summary": "일일 출석, 레벨업, 랭킹 집계, DB 연동 등 운영 자동화를 목표로 구현.",
-    "tags": ["Node.js", "MariaDB", "Discord API"],
-    "link": "",
-    "repo": ""
-  },
-  {
-    "title": "Spring 기반 웹 서비스 프로젝트",
-    "summary": "로그인/기능 구현, DB 모델링, API 연동까지 전반 경험.",
-    "tags": ["Java", "Spring", "MySQL/MariaDB"],
-    "link": "",
-    "repo": ""
-  },
-  {
-    "title": "행사 AV 운영 사례 모음",
-    "summary": "음향/조명/영상 운영 포지션과 대응 사례를 정리(장비/구성/트러블슈팅).",
-    "tags": ["Sound", "Lighting", "Video"],
-    "link": "",
-    "repo": ""
+    "period": "2025",
+    "role": "기획 · 백엔드/DB",
+    "summary": "출석/레벨/랭킹 집계 및 DB 연동으로 운영 자동화.",
+    "stack": ["Node.js", "Discord API", "MariaDB"],
+    "highlights": [
+      "랭킹 집계 로직/쿼리 설계",
+      "운영 안정성을 위한 로그/예외 처리 강화"
+    ],
+    "links": {
+      "demo": "",
+      "repo": ""
+    }
   }
 ]
